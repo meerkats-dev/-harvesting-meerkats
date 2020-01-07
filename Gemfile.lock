@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    harvesting (0.3.0)
+    harvesting (0.3.0.pre.meerkats)
       http (~> 3.3, >= 3.3)
 
 GEM
@@ -14,10 +14,10 @@ GEM
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.3)
-    domain_name (0.5.20180417)
+    domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.5.0)
-    ffi (1.9.23)
+    ffi (1.11.3)
     formatador (0.2.5)
     guard (2.14.2)
       formatador (>= 0.2.4)
@@ -80,7 +80,7 @@ GEM
     thor (0.20.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.5)
+    unf_ext (0.0.7.6)
     vcr (4.0.0)
     webmock (3.4.0)
       addressable (>= 2.3.6)
